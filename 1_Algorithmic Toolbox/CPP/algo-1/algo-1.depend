@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1644996249 source:d:\repos\courseraplus\1_algorithmic toolbox\cpp\algo-1\main.cpp
+	<iostream>
+	<vector>
+
+1644993763 source:d:\repos\courseraplus\1_algorithmic toolbox\cpp\algo-1\ref.cpp
+	<iostream>
+	<iomanip>
+	<array>
+
