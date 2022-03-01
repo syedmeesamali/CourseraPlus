@@ -12,4 +12,24 @@ def computepay(hours, rate):
     
     return pay
 
-print("Pay is: " + str(computepay(45, 10)))
+#print("Pay is: " + str(computepay(45, 10)))
+
+def greet(lang):
+    if lang == 'en':
+        print("Hello boy")
+    elif lang == 'sp':
+        print("Holllaaa")
+    else:
+        print("Other lang")
+
+greet('ur')
+
+def func(x):
+    print(x)
+func(20)
+
+def addTwo(a, b):
+    added = a + b
+    return a
+x = addTwo(2, 7)
+print(x)
