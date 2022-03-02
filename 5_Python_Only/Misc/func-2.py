@@ -1,12 +1,8 @@
-def computepay(h, r):
-    pay = 0
-    if float(h) < 40:
-        pay = float(h) * float(r)
-    else:
-        pay = 40 * float(r) + 1.5 * (float(h) - 40) * float(r)
-    return pay
+for i in [5, 4, 3, 2, 1]:
+    print(i)
+print("Blaaaaast off !!")
 
-hrs = input("Enter Hours:")
-rate = input("Enter Rate:")
-p = computepay(hrs, rate)
-print("Pay", p)
+friends = ['ali', 'hamid', 'qasim', 'kazim']
+for friend in friends:
+    print("Hello: ", friend)
+    
