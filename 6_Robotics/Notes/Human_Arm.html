@@ -1,0 +1,65 @@
+<!-- Simple HTML document -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {background-color: lightgoldenrodyellow; }
+        h1   {color: blue; } 
+        p    {color: red; }
+        </style>
+    <title>Human Arm</title>
+</head>
+<body>
+    <h1>Human Arm</h1>
+    <br>
+    How many degrees of freedom does a typical human arm have, from the shoulder to just past the wrist?  
+    Assume that the (x,y,z) position of the center of the shoulder joint is stationary (e.g., the shoulder can't 
+    "hunch" upward), and don't count any degrees of freedom in the hand (pretend the hand is just a rigid body).  
+    We want to know the number of degrees of freedom if the movable joints are at the shoulder, the elbow, 
+    and the wrist.
+<br><br>
+<image src="arm-1.png"></image>
+<br><br>
+<strong>[Always remember: Grubler's formula is just an expression of the concept that the number of degrees of 
+freedom of a mechanism is equal to the number of degrees of freedom of the rigid bodies minus the 
+number of independent constraints on the motion of those bodies. So even if the mechanism does not 
+have traditional joints (spherical, revolute, etc.), you may still be able to count the number of 
+degrees of freedom.]</strong>
+<br><br>
+Try solving the problem two ways:  (1) Add up the joint freedoms as you move your arm around.  
+(2) Put your hand on a table at a fixed location, with your elbow bent.  
+(We are avoiding the singularity where your elbow is locked out straight!)  
+Without moving your hand or the (x,y,z) position of your shoulder, how many motion freedoms does your 
+arm still have?  How many constraints did you place on your arm when you fixed your hand 
+(a rigid body) at a particular configuration on the table?  Given these, what must be the 
+number of degrees of freedom of your arm when you don't have constraints on your hand's position?  
+Your answers from methods (1) and (2) should be the same.
+<br><br><br>
+Is your answer larger, smaller, or the same as the number of degrees of freedom of a rigid body in space?  
+Why might that matter?
+
+One last thing you could think about:  The human arm has one effectively rigid bone in the 
+upper arm (the humerus) and two rigid bones in the forearm (the radius and the ulna).  
+And, since we're only talking about the DOF of the arm, you can think of the hand as a rigid body. 
+ Given the four rigid bodies of the arm (humerus, radius, ulna, hand), and your answer to 
+ the number of degrees of freedom of the arm, how many constraints on the motions of the rigid 
+ bodies must be provided by joints?  (These joints are between the four rigid bodies, and 
+ between the humerus and the shoulder socket, or "ground.")
+ <br><br><br>
+<h1>Joint Types</h1>
+<br>
+<image src="joints-1.png"></image>
+<br>
+<h2>Degrees of Freedom</h2>
+<br>
+<image src="dof-1.png"></image>
+<br>
+<h2>Grubler's Formula</h2>
+<br>
+<image src="Grubler.png"></image>
+</body>
+</html>
+
