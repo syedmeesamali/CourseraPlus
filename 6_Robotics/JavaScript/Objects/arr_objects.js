@@ -39,6 +39,4 @@ function makeRun()
     console.log(products)
     output.append('>>> Premium products' + '\n\n' + prem + '\n\n')
     console.log(prem)
-    //output.append('>>> Stock Value' + '\n\n' + prodStock + '\n\n')
-    //console.log(prodStock)
 }
