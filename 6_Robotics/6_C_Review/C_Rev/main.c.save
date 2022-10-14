@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#define ans 15 //Define constant with name
+
+//Always the main entry point for any program
+int main()
+{
+    int x;
+    x = ans;
+    do {
+        printf("Hello world! {%d}\n", x);
+        x -= 1;
+    } while (x != 0);
+}
