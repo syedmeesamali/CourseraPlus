@@ -1,0 +1,10 @@
+Date: 15/12/2022
+Time: 16:37
+Phone Number: +971509877214
+Message: Your message goes here
+--------------------
+Date: 15/12/2022
+Time: 16:42
+Phone Number: +971509877214
+Message: This is a message from Whatsapp BOT via Python
+--------------------
