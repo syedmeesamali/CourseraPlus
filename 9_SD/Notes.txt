@@ -1,0 +1,3 @@
+SD fully working in the main directory with class WEB_UI which provides an interface for image generation as well as various allied options.
+
+Main task is to do proper prompt engineering to get useful images.
