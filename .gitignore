@@ -1,3 +1,6 @@
+# Folders
+/Clients/Demos/1_Vision
+
 # Libraries
 *.lib
 *.a
@@ -18,7 +21,3 @@
 *.x86_64
 *.hex
 *.bin
-
-# Folders
-/Clients/Demos/1_Vision/
-/8_SD/
