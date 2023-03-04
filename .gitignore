@@ -20,4 +20,5 @@
 *.bin
 
 # Folders
-/8_GCP/1_Vision/Keys
+/Clients/Demos/1_Vision/
+/8_SD/
