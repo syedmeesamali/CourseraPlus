@@ -1,0 +1,9 @@
+func (a ** b)
+	3 ** 4
+	3 x 3 x 3 x 3
+	total iterations = 4 (or equal to b)
+	or multiply 3 with ITSELF for a total of 4 times
+
+algo now - 1
+3 * 3 + 3 * 3 + 3 * 3 + 3 * 3
+	
